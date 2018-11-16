@@ -1,0 +1,17 @@
+{
+  "name": "icons-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server .",
+    "test": "cypress open"
+  },
+  "author": "Jeremy Wilken <gnomation@gnomeontherun.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^3.1.1",
+    "http-server": "^0.11.1"
+  }
+}

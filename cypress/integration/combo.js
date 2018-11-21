@@ -10,7 +10,6 @@ import * as travel from '../fixtures/travel.json';
 
 context('Combination of Icon Sets', () => {
   beforeEach(() => {
-    // const core = fs.readFileSync('../fixtures/core.json');
     cy.visit('http://localhost:8080/fixtures/combo.html');
   });
 
@@ -24,10 +23,10 @@ context('Combination of Icon Sets', () => {
       const sets = [
         { included: true, shapes: chart.default },
         { included: false, shapes: commerce.default },
-        { included: true, shapes: core.default },
+        // { included: true, shapes: core.default },
         { included: false, shapes: essential.default },
         { included: false, shapes: media.default },
-        { included: true, shapes: social.default },
+        // { included: true, shapes: social.default },
         { included: false, shapes: technology.default },
         { included: false, shapes: textEdit.default },
         { included: false, shapes: travel.default },
